@@ -1,0 +1,2722 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1355592352277459
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4179322281290689}
+  - 114: {fileID: 114369985388880659}
+  m_Layer: 0
+  m_Name: Market_Backpack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4179322281290689
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1355592352277459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114369985388880659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1355592352277459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: fad163d5c4e4b3f4e84697d846537632, type: 2}
+  sprites:
+  - name: SquareExpFK
+    outer:
+      serializedVersion: 2
+      x: 215
+      y: 277
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 277
+      width: 6
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareArrowIconUp
+    outer:
+      serializedVersion: 2
+      x: 355
+      y: 803
+      width: 40
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 355
+      y: 803
+      width: 40
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClassifyTemplate
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 138
+      width: 54
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 138
+      width: 54
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonAuthor02
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 696
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 919
+      y: 700
+      width: 38
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonButton02
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 258
+      width: 77
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 167
+      y: 258
+      width: 11
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareBtnChatBK
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 29
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 29
+      width: 68
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackButtonCheckBK
+    outer:
+      serializedVersion: 2
+      x: 437
+      y: 743
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 437
+      y: 743
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketPixelBlock
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 892
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 812
+      y: 893
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconCaptionSell
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 822
+      width: 88
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 822
+      width: 20
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonButton01
+    outer:
+      serializedVersion: 2
+      x: 725
+      y: 745
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 725
+      y: 745
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonMessageBoxBK03
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 707
+      width: 98
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 167
+      y: 737
+      width: 24
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareBtnChatIcon1
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 645
+      width: 36
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 645
+      width: 36
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonArearBK
+    outer:
+      serializedVersion: 2
+      x: 895
+      y: 655
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 665
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconItemState
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 806
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 806
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonButtonLight
+    outer:
+      serializedVersion: 2
+      x: 540
+      y: 804
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 540
+      y: 804
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonTabLeftSelMask
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 57
+      width: 42
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 57
+      width: 12
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonButtonClose
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 325
+      width: 62
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 325
+      width: 62
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketLabelBK01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackSellListBK
+    outer:
+      serializedVersion: 2
+      x: 870
+      y: 655
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 880
+      y: 665
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButton01
+    outer:
+      serializedVersion: 2
+      x: 685
+      y: 940
+      width: 174
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 771
+      y: 940
+      width: 10
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButton02
+    outer:
+      serializedVersion: 2
+      x: 455
+      y: 802
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 455
+      y: 802
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareBtnChatIcon2
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 891
+      width: 42
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 891
+      width: 42
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareGameModesBK
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 681
+      width: 32
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 823
+      y: 689
+      width: 16
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClassifyDecoration
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 891
+      width: 58
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 891
+      width: 58
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonIconGold
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 188
+      width: 40
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 188
+      width: 40
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareExpBK
+    outer:
+      serializedVersion: 2
+      x: 215
+      y: 266
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 266
+      width: 6
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareArrowIconDown
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 803
+      width: 40
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 803
+      width: 40
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonMessageBoxBK02
+    outer:
+      serializedVersion: 2
+      x: 752
+      y: 649
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 754
+      y: 651
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonItemBKPrice
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 803
+      width: 42
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 803
+      width: 6
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconFavorites
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 309
+      width: 40
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 309
+      width: 40
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconI
+    outer:
+      serializedVersion: 2
+      x: 948
+      y: 897
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 948
+      y: 897
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconMarket
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 219
+      width: 32
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 219
+      width: 32
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonTabLeftBK
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 386
+      width: 48
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 254
+      y: 386
+      width: 12
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonItemBK
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 745
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 576
+      y: 767
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonIconPlus
+    outer:
+      serializedVersion: 2
+      x: 653
+      y: 645
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 653
+      y: 645
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonIconMinus
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 811
+      width: 34
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 811
+      width: 34
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClassifyAuthorIcon
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 680
+      width: 54
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 680
+      width: 54
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonAuthor01
+    outer:
+      serializedVersion: 2
+      x: 704
+      y: 810
+      width: 76
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 704
+      y: 810
+      width: 76
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonIconCrystal
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 266
+      width: 36
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 266
+      width: 36
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonHead01
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 264
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 264
+      width: 22
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconFavorites1
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 348
+      width: 40
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 348
+      width: 40
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconLikeBig
+    outer:
+      serializedVersion: 2
+      x: 581
+      y: 643
+      width: 34
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 581
+      y: 643
+      width: 34
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconEquipped
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 828
+      width: 142
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 828
+      width: 142
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconLikeSmall
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 9
+      width: 26
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 9
+      width: 26
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClassifyBestAvatar
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 747
+      width: 64
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 747
+      width: 64
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonHead02
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 203
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 203
+      width: 22
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClassifyAvatar
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 897
+      width: 60
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 897
+      width: 60
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonItemSel
+    outer:
+      serializedVersion: 2
+      x: 668
+      y: 745
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 767
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonTabLeftSeparate
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 892
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 892
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButton04
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 678
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 678
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconZoomIn
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 504
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 504
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackSellItemBK
+    outer:
+      serializedVersion: 2
+      x: 766
+      y: 694
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 704
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackButtonDel
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 143
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 143
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonTabLeft
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 467
+      width: 48
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 254
+      y: 467
+      width: 20
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackButtonCheckLabel
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 20
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 20
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButton03
+    outer:
+      serializedVersion: 2
+      x: 356
+      y: 682
+      width: 50
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 682
+      width: 12
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketIconBackPack
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 387
+      width: 42
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 387
+      width: 42
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatFrameBG02
+    outer:
+      serializedVersion: 2
+      x: 215
+      y: 288
+      width: 10
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 288
+      width: 6
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatHistoryFrameBG
+    outer:
+      serializedVersion: 2
+      x: 962
+      y: 692
+      width: 40
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 692
+      width: 18
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatFrameBG03
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 231
+      width: 30
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 311
+      y: 231
+      width: 10
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatBtnBlockMessage
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 102
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 102
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatFrameBG04
+    outer:
+      serializedVersion: 2
+      x: 845
+      y: 655
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 855
+      y: 665
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatBtnUnblockMessage
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 61
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 61
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsFG01
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 355
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 355
+      width: 4
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsFG03
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 290
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 315
+      y: 290
+      width: 6
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsBG01
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 420
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 420
+      width: 4
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsFG02
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 615
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 315
+      y: 615
+      width: 10
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsIconRead
+    outer:
+      serializedVersion: 2
+      x: 668
+      y: 694
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 668
+      y: 694
+      width: 48
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsBG03
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 550
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 315
+      y: 550
+      width: 6
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsBGOffset
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 356
+      y: 3
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsFrame
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 928
+      width: 52
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 989
+      y: 928
+      width: 8
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsIconUnread
+    outer:
+      serializedVersion: 2
+      x: 483
+      y: 643
+      width: 48
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 483
+      y: 643
+      width: 48
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsBG02
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 485
+      width: 42
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 315
+      y: 485
+      width: 10
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MailsButtonAttachment
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 692
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 692
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlankBlockCom
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 887
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 888
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconHeart
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 66
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 66
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconCopperCrown
+    outer:
+      serializedVersion: 2
+      x: 436
+      y: 639
+      width: 46
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 436
+      y: 639
+      width: 46
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonMails
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 2
+      width: 32
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 2
+      width: 32
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconCrystal
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 743
+      width: 76
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 743
+      width: 76
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonAddFriend
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 889
+      width: 44
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 889
+      width: 44
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconGoldCrown
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 887
+      width: 46
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 887
+      width: 46
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconSearch
+    outer:
+      serializedVersion: 2
+      x: 719
+      y: 649
+      width: 32
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 719
+      y: 649
+      width: 32
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsEqual
+    outer:
+      serializedVersion: 2
+      x: 437
+      y: 811
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 437
+      y: 811
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconFacebook
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 22
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 22
+      width: 36
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsUp
+    outer:
+      serializedVersion: 2
+      x: 816
+      y: 805
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 816
+      y: 805
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsDown
+    outer:
+      serializedVersion: 2
+      x: 833
+      y: 805
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 833
+      y: 805
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonBG
+    outer:
+      serializedVersion: 2
+      x: 872
+      y: 690
+      width: 42
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 690
+      width: 18
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonHot
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 810
+      width: 74
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 810
+      width: 74
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsIconSilverCrown
+    outer:
+      serializedVersion: 2
+      x: 389
+      y: 639
+      width: 46
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 389
+      y: 639
+      width: 46
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonPraiseBG
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 525
+      width: 96
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 525
+      width: 96
+      height: 86
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGMedal
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 635
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 635
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGSwitch
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 101
+      width: 32
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 101
+      width: 32
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGGame
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 59
+      width: 36
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 59
+      width: 36
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGSet
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 590
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 590
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonBGBig
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 918
+      width: 108
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 918
+      width: 108
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGFriends
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 426
+      width: 42
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 426
+      width: 42
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGRankings
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 137
+      width: 44
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 137
+      width: 44
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGMails
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 2
+      width: 32
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 2
+      width: 32
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGGift
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 465
+      width: 42
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 465
+      width: 42
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonBGNormal
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 613
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 254
+      y: 613
+      width: 22
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RankingsButtonSelfBG
+    outer:
+      serializedVersion: 2
+      x: 782
+      y: 744
+      width: 54
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 744
+      width: 18
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatHistoryFrameBG2
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 132
+      width: 40
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 210
+      y: 132
+      width: 14
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatButtonFGPrivateChat
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 67
+      width: 28
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 67
+      width: 28
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ChatFriendsBGFrame
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 659
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 795
+      y: 661
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareIconBGExtraTip
+    outer:
+      serializedVersion: 2
+      x: 814
+      y: 659
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 814
+      y: 659
+      width: 30
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SquareButtonFGVideo
+    outer:
+      serializedVersion: 2
+      x: 532
+      y: 643
+      width: 48
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 643
+      width: 48
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonButtonRedBG
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 98
+      width: 56
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 161
+      y: 98
+      width: 4
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketBoxLabel
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 747
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 747
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackBoxLabel
+    outer:
+      serializedVersion: 2
+      x: 946
+      y: 747
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 946
+      y: 747
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi9
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 887
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 887
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 611
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 611
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 887
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 887
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 335
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 335
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 473
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 473
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi10
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 887
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 887
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 59
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 59
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi7
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 887
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 887
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 197
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 197
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moshi11
+    outer:
+      serializedVersion: 2
+      x: 411
+      y: 887
+      width: 136
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 411
+      y: 887
+      width: 136
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: suo1
+    outer:
+      serializedVersion: 2
+      x: 458
+      y: 686
+      width: 48
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 458
+      y: 686
+      width: 48
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: youxizhong_fangxiang_W_28_34_H_28_34
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 548
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 264
+      y: 582
+      width: 8
+      height: -4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: youxizhong01_W_44_44_H_44_44
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 612
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 656
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hotsell
+    outer:
+      serializedVersion: 2
+      x: 870
+      y: 810
+      width: 74
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 870
+      y: 810
+      width: 74
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: delete_s
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 743
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 743
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rate
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 698
+      width: 56
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 698
+      width: 56
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniu1.1_W_86_78
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 802
+      width: 174
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 802
+      width: 10
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shangpindi1_W_22_18_H_18_22
+    outer:
+      serializedVersion: 2
+      x: 611
+      y: 745
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 633
+      y: 767
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: support
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 98
+      width: 36
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 98
+      width: 36
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniu_2
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 347
+      width: 88
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 347
+      width: 88
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubiao_duiwu
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 702
+      width: 56
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 815
+      y: 702
+      width: 56
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniu_2.1
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 436
+      width: 88
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 436
+      width: 88
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubiao_kapian
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 697
+      width: 52
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 697
+      width: 52
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.06666667
+    paddingBottom: 0
+  - name: qianghua
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 743
+      width: 53
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 743
+      width: 53
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.056603774
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jinbi_di
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 890
+      width: 6
+      height: 6
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 890
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 183
+      width: 74
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 183
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: add_small
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 694
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 694
+      width: 48
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: close
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 545
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 545
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_card1
+    outer:
+      serializedVersion: 2
+      x: 496
+      y: 745
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 496
+      y: 745
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0.01754386
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_gem1
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 2
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 2
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_shengji
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 38
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 38
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_zhuangbeibeibao
+    outer:
+      serializedVersion: 2
+      x: 685
+      y: 887
+      width: 54
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 685
+      y: 887
+      width: 54
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: quan0
+    outer:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 66
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 66
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tili
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 641
+      width: 30
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 641
+      width: 30
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jia_s
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 809
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 809
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_rpg
+    outer:
+      serializedVersion: 2
+      x: 407
+      y: 682
+      width: 50
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 407
+      y: 682
+      width: 50
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarketButtonClose1
+    outer:
+      serializedVersion: 2
+      x: 212
+      y: 237
+      width: 21
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 212
+      y: 237
+      width: 21
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jiangzang_xiao
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 170
+      width: 30
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 170
+      width: 30
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1355592352277459}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

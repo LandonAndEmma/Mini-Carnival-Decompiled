@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3a3d9308e394cc3bd74a45c4235a3f, type: 3}
+  m_Name: SilverFishPoleData
+  m_EditorClassIdentifier:
+  _fp_inseason_fish: 0.625
+  _fp_un_inseason_fish: 0.05
+  _fp_treasure_chest: 0.125
+  _fp_garbage: 0.2
+  _conf_season_fish:
+  - _fishList: 01000000020000000500000008000000090000000a00000004000000060000000c000000
+  - _fishList: 0b0000000e0000000f000000130000001400000017000000100000001200000015000000
+  - _fishList: 180000001a0000001b0000001d0000001e000000210000001600000019000000
+  - _fishList: 2200000023000000240000002500000026000000270000001f0000002000000028000000
+  _deco:
+  - _fp: 0.5
+    _decoList:
+    - HT16
+    - HF02
+    - HF04
+  - _fp: 0.5
+    _decoList:
+    - HT23
+    - HF03
+    - CB04
+    - HT15
+  _gold_conf:
+    _nMaxNum: 250
+    _nMinNum: 100
+  _crystal_conf:
+    _nMaxNum: 4
+    _nMinNum: 1
+  _fp_chest_content:
+    _fp_gold: 0.5
+    _fp_crystal: 0.2
+    _fp_deco: 0.3

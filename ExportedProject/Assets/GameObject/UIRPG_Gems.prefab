@@ -1,0 +1,850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1394053174374805
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4913453506921362}
+  - 114: {fileID: 114828533721806411}
+  m_Layer: 0
+  m_Name: UIRPG_Gems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913453506921362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1394053174374805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114828533721806411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1394053174374805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d77193591a1d96c45ba681757024e36f, type: 2}
+  sprites:
+  - name: gem_red5
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 176
+      width: 52
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 176
+      width: 52
+      height: 80
+    rotated: 0
+    paddingLeft: 0.01923077
+    paddingRight: 0.01923077
+    paddingTop: 0.0125
+    paddingBottom: 0.0125
+  - name: gem_purple4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 46
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 46
+      height: 62
+    rotated: 0
+    paddingLeft: 0.02173913
+    paddingRight: 0.02173913
+    paddingTop: 0.016129032
+    paddingBottom: 0.016129032
+  - name: gem_p_s3
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 145
+      width: 20
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 145
+      width: 20
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_yellow4
+    outer:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 46
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 46
+      height: 62
+    rotated: 0
+    paddingLeft: 0.02173913
+    paddingRight: 0.02173913
+    paddingTop: 0.016129032
+    paddingBottom: 0.016129032
+  - name: gem_blue4
+    outer:
+      serializedVersion: 2
+      x: 103
+      y: 4
+      width: 46
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 103
+      y: 4
+      width: 46
+      height: 62
+    rotated: 0
+    paddingLeft: 0.02173913
+    paddingRight: 0.02173913
+    paddingTop: 0.016129032
+    paddingBottom: 0.016129032
+  - name: gem_red_s3
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 25
+      width: 20
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 25
+      width: 20
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_blue_s3
+    outer:
+      serializedVersion: 2
+      x: 355
+      y: 145
+      width: 20
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 355
+      y: 145
+      width: 20
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_red6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 162
+      width: 102
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 162
+      width: 102
+      height: 94
+    rotated: 0
+    paddingLeft: 0.009803922
+    paddingRight: 0.009803922
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: gem_yellow6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 67
+      width: 102
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 67
+      width: 102
+      height: 94
+    rotated: 0
+    paddingLeft: 0.009803922
+    paddingRight: 0.009803922
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: gem_purple2
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 224
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 224
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0.03125
+    paddingRight: 0.03125
+    paddingTop: 0.03125
+    paddingBottom: 0.03125
+  - name: gem_red_s6
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 175
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 175
+      width: 30
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_yellow_s6
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 228
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 481
+      y: 228
+      width: 30
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_blue_s4
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 145
+      width: 21
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 145
+      width: 21
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_yellow_s1
+    outer:
+      serializedVersion: 2
+      x: 431
+      y: 183
+      width: 25
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 431
+      y: 183
+      width: 25
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_yellow3
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 70
+      width: 36
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 70
+      width: 36
+      height: 52
+    rotated: 0
+    paddingLeft: 0.027777778
+    paddingRight: 0.027777778
+    paddingTop: 0.01923077
+    paddingBottom: 0.01923077
+  - name: gem_yellow2
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 224
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 224
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0.03125
+    paddingRight: 0.03125
+    paddingTop: 0.03125
+    paddingBottom: 0.03125
+  - name: gem_blue_s1
+    outer:
+      serializedVersion: 2
+      x: 405
+      y: 183
+      width: 25
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 405
+      y: 183
+      width: 25
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_red3
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 17
+      width: 36
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 17
+      width: 36
+      height: 52
+    rotated: 0
+    paddingLeft: 0.027777778
+    paddingRight: 0.027777778
+    paddingTop: 0.01923077
+    paddingBottom: 0.01923077
+  - name: gem_p_s1
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 207
+      width: 25
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 481
+      y: 207
+      width: 25
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_blue_s6
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 175
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 175
+      width: 30
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_purple6
+    outer:
+      serializedVersion: 2
+      x: 103
+      y: 162
+      width: 102
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 103
+      y: 162
+      width: 102
+      height: 94
+    rotated: 0
+    paddingLeft: 0.009803922
+    paddingRight: 0.009803922
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: gem_blue_s2
+    outer:
+      serializedVersion: 2
+      x: 397
+      y: 154
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 397
+      y: 154
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_yellow_s3
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 17
+      width: 20
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 17
+      width: 20
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_blue3
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 204
+      width: 36
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 204
+      width: 36
+      height: 52
+    rotated: 0
+    paddingLeft: 0.027777778
+    paddingRight: 0.027777778
+    paddingTop: 0.01923077
+    paddingBottom: 0.01923077
+  - name: gem_blue6
+    outer:
+      serializedVersion: 2
+      x: 103
+      y: 67
+      width: 102
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 103
+      y: 67
+      width: 102
+      height: 94
+    rotated: 0
+    paddingLeft: 0.009803922
+    paddingRight: 0.009803922
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: gem_p_s5
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 143
+      width: 20
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 143
+      width: 20
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.032258064
+  - name: gem_yellow_s5
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 111
+      width: 20
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 111
+      width: 20
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.032258064
+  - name: gem_p_s6
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 175
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 175
+      width: 30
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_yellow5
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 176
+      width: 52
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 176
+      width: 52
+      height: 80
+    rotated: 0
+    paddingLeft: 0.01923077
+    paddingRight: 0.01923077
+    paddingTop: 0.0125
+    paddingBottom: 0.0125
+  - name: gem_red_s2
+    outer:
+      serializedVersion: 2
+      x: 483
+      y: 183
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 483
+      y: 183
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_blue2
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 224
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 224
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0.03125
+    paddingRight: 0.03125
+    paddingTop: 0.03125
+    paddingBottom: 0.03125
+  - name: gem_blue5
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 14
+      width: 52
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 14
+      width: 52
+      height: 80
+    rotated: 0
+    paddingLeft: 0.01923077
+    paddingRight: 0.01923077
+    paddingTop: 0.0125
+    paddingBottom: 0.0125
+  - name: gem_blue_s5
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 79
+      width: 20
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 79
+      width: 20
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.032258064
+  - name: gem_red4
+    outer:
+      serializedVersion: 2
+      x: 150
+      y: 4
+      width: 46
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 150
+      y: 4
+      width: 46
+      height: 62
+    rotated: 0
+    paddingLeft: 0.02173913
+    paddingRight: 0.02173913
+    paddingTop: 0.016129032
+    paddingBottom: 0.016129032
+  - name: gem_yellow_s4
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 115
+      width: 21
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 115
+      width: 21
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_p_s4
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 85
+      width: 21
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 85
+      width: 21
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_purple5
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 95
+      width: 52
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 95
+      width: 52
+      height: 80
+    rotated: 0
+    paddingLeft: 0.01923077
+    paddingRight: 0.01923077
+    paddingTop: 0.0125
+    paddingBottom: 0.0125
+  - name: gem_p_s2
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 4
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 4
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_yellow_s2
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 154
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 154
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_red_s1
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 183
+      width: 25
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 183
+      width: 25
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_red_s4
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 55
+      width: 21
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 55
+      width: 21
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0.03448276
+  - name: gem_red_s5
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 47
+      width: 20
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 47
+      width: 20
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.032258064
+  - name: gem_purple3
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 123
+      width: 36
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 123
+      width: 36
+      height: 52
+    rotated: 0
+    paddingLeft: 0.027777778
+    paddingRight: 0.027777778
+    paddingTop: 0.01923077
+    paddingBottom: 0.01923077
+  - name: gem_red2
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 224
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 224
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0.03125
+    paddingRight: 0.03125
+    paddingTop: 0.03125
+    paddingBottom: 0.03125
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1394053174374805}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

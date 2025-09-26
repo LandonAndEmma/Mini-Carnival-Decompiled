@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_GameRuleBoxTurn2
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
+        inSlope: {x: 0, y: -1.1251366, z: 0, w: -1.0960615}
+        outSlope: {x: 0, y: -1.1251366, z: 0, w: -1.0960615}
+        tangentMode: 0
+      - time: 0.28333336
+        value: {x: 0, y: 0.333807, z: 0, w: -0.94264144}
+        inSlope: {x: 0, y: -1.4805255, z: 0, w: -0.5242802}
+        outSlope: {x: 0, y: -1.4805255, z: 0, w: -0.5242802}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 0, y: -8.742278E-08, z: 0, w: -1}
+        inSlope: {x: 0, y: -1.5706264, z: 0, w: -0.020560266}
+        outSlope: {x: 0, y: -1.5706264, z: 0, w: -0.020560266}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: weaponGroup/weapon1/BK_des
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+        inSlope: {x: 0, y: 4.862834, z: 0, w: 4.3601093}
+        outSlope: {x: 0, y: 4.862834, z: 0, w: 4.3601093}
+        tangentMode: 0
+      - time: 0.016666668
+        value: {x: 0, y: -0.62605953, z: 0, w: 0.77977526}
+        inSlope: {x: 0, y: 5.191485, z: 0, w: 4.150246}
+        outSlope: {x: 0, y: 5.191485, z: 0, w: 4.150246}
+        tangentMode: 0
+      - time: 0.050000004
+        value: {x: 0, y: -0.43711573, z: 0, w: 0.89940524}
+        inSlope: {x: 0, y: 5.741435, z: 0, w: 2.8201585}
+        outSlope: {x: 0, y: 5.741435, z: 0, w: 2.8201585}
+        tangentMode: 0
+      - time: 0.1
+        value: {x: 0, y: -0.19149426, z: 0, w: 0.9814937}
+        inSlope: {x: 0, y: 3.6308632, z: 0, w: 0.73606795}
+        outSlope: {x: 0, y: 3.6308632, z: 0, w: 0.73606795}
+        tangentMode: 0
+      - time: 0.16666666
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 2.8891478, z: 0, w: 0.0696016}
+        outSlope: {x: 0, y: 2.8891478, z: 0, w: 0.0696016}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.16666666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events:
+  - time: 0.16666667
+    functionName: LinkAniEnd
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
+    messageOptions: 0

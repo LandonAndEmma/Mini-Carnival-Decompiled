@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1390026161014572
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4606145877321963}
+  - 114: {fileID: 114491043156063197}
+  m_Layer: 0
+  m_Name: RPG_Drop_Deco
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4606145877321963
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390026161014572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114491043156063197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390026161014572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: cdcc1676eb3c7ba4ca49d1135febbf60, type: 2}
+  sprites:
+  - name: deco_AA42
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 329
+      width: 98
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 329
+      width: 98
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.21686748
+    paddingBottom: 0.024096385
+  - name: deco_AA18
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 416
+      width: 93
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 416
+      width: 93
+      height: 96
+    rotated: 0
+    paddingLeft: 0.032258064
+    paddingRight: 0.021505376
+    paddingTop: 0.072916664
+    paddingBottom: 0
+  - name: deco_AA20
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 107
+      width: 95
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 107
+      width: 95
+      height: 63
+    rotated: 0
+    paddingLeft: 0.021052632
+    paddingRight: 0.010526316
+    paddingTop: 0.26984128
+    paddingBottom: 0.36507937
+  - name: deco_AA36
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 206
+      width: 92
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 206
+      width: 92
+      height: 102
+    rotated: 0
+    paddingLeft: 0.06521739
+    paddingRight: 0
+    paddingTop: 0.009803922
+    paddingBottom: 0
+  - name: deco_AA26
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 45
+      width: 89
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 45
+      width: 89
+      height: 62
+    rotated: 0
+    paddingLeft: 0.056179777
+    paddingRight: 0.04494382
+    paddingTop: 0.4032258
+    paddingBottom: 0.2580645
+  - name: deco_AA39
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 325
+      width: 90
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 325
+      width: 90
+      height: 87
+    rotated: 0
+    paddingLeft: 0.055555556
+    paddingRight: 0.033333335
+    paddingTop: 0.1724138
+    paddingBottom: 0.011494253
+  - name: deco_AA25
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 321
+      width: 94
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 321
+      width: 94
+      height: 91
+    rotated: 0
+    paddingLeft: 0.031914894
+    paddingRight: 0.010638298
+    paddingTop: 0.12087912
+    paddingBottom: 0.010989011
+  - name: deco_AA40
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 234
+      width: 88
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 234
+      width: 88
+      height: 87
+    rotated: 0
+    paddingLeft: 0.06818182
+    paddingRight: 0.045454547
+    paddingTop: 0.16091955
+    paddingBottom: 0.022988506
+  - name: deco_AA17
+    outer:
+      serializedVersion: 2
+      x: 364
+      y: 172
+      width: 98
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 364
+      y: 172
+      width: 98
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.3802817
+    paddingBottom: 0.07042254
+  - name: deco_AA38
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 308
+      width: 95
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 308
+      width: 95
+      height: 101
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.031578947
+    paddingTop: 0.01980198
+    paddingBottom: 0
+  - name: deco_AA10
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 170
+      width: 96
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 170
+      width: 96
+      height: 73
+    rotated: 0
+    paddingLeft: 0.020833334
+    paddingRight: 0
+    paddingTop: 0.31506848
+    paddingBottom: 0.09589041
+  - name: deco_AA28
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 416
+      width: 91
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 416
+      width: 91
+      height: 96
+    rotated: 0
+    paddingLeft: 0.043956045
+    paddingRight: 0.032967035
+    paddingTop: 0.072916664
+    paddingBottom: 0
+  - name: deco_AA32
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 132
+      width: 72
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 132
+      width: 72
+      height: 102
+    rotated: 0
+    paddingLeft: 0.19444445
+    paddingRight: 0.16666667
+    paddingTop: 0.009803922
+    paddingBottom: 0
+  - name: deco_AA09
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 409
+      width: 97
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 409
+      width: 97
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.010309278
+    paddingTop: 0
+    paddingBottom: 0
+  - name: deco_AA47
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 97
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 97
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.010309278
+    paddingTop: 0.10752688
+    paddingBottom: 0
+  - name: deco_AA44
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 110
+      width: 97
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 110
+      width: 97
+      height: 96
+    rotated: 0
+    paddingLeft: 0.010309278
+    paddingRight: 0
+    paddingTop: 0.072916664
+    paddingBottom: 0
+  - name: deco_AA08
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 243
+      width: 97
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 243
+      width: 97
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.010309278
+    paddingTop: 0.25641027
+    paddingBottom: 0.06410257
+  - name: deco_AA45
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 412
+      width: 98
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 412
+      width: 98
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.03
+    paddingBottom: 0
+  - name: deco_AA23
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 222
+      width: 83
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 222
+      width: 83
+      height: 99
+    rotated: 0
+    paddingLeft: 0.09638554
+    paddingRight: 0.084337346
+    paddingTop: 0.04040404
+    paddingBottom: 0
+  - name: deco_AA37
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 420
+      width: 95
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 420
+      width: 95
+      height: 92
+    rotated: 0
+    paddingLeft: 0.021052632
+    paddingRight: 0.010526316
+    paddingTop: 0.10869565
+    paddingBottom: 0.010869565
+  - name: deco_AA16
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 248
+      width: 98
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 365
+      y: 248
+      width: 98
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.41095892
+    paddingBottom: 0
+  - name: deco_AA46
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 17
+      width: 78
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 17
+      width: 78
+      height: 102
+    rotated: 0
+    paddingLeft: 0.12820514
+    paddingRight: 0.12820514
+    paddingTop: 0.009803922
+    paddingBottom: 0
+  - name: deco_AA22
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 332
+      width: 98
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 332
+      width: 98
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.2875
+    paddingBottom: 0
+  - name: deco_AA43
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 119
+      width: 78
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 119
+      width: 78
+      height: 103
+    rotated: 0
+    paddingLeft: 0.12820514
+    paddingRight: 0.12820514
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1390026161014572}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

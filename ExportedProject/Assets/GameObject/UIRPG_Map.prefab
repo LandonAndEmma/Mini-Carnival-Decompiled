@@ -1,0 +1,1264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1239900051783022
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4920681961081328}
+  - 114: {fileID: 114054012611365195}
+  m_Layer: 0
+  m_Name: UIRPG_Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4920681961081328
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239900051783022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114054012611365195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239900051783022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c4cd81c776cb3d44fba7b1ea7f0dd693, type: 2}
+  sprites:
+  - name: iconbaoxiang1
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 139
+      width: 30
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 139
+      width: 30
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tankuangdi_W_18_24_H_18_34
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 98
+      width: 54
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 116
+      width: 12
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AP_di_W_10_10
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 165
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 395
+      y: 165
+      width: 10
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapianguanli_di_W_12_12_H_2_12
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 99
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 397
+      y: 101
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapai2_mingzi
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 230
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 230
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: title_sj
+    outer:
+      serializedVersion: 2
+      x: 348
+      y: 116
+      width: 36
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 348
+      y: 116
+      width: 36
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tankuang_di_W_12_12_H_2_12
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 119
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 397
+      y: 121
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon10
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 119
+      width: 15
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 119
+      width: 15
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.06666667
+    paddingTop: 0
+    paddingBottom: 0.037037037
+  - name: AP_di_W_4_4
+    outer:
+      serializedVersion: 2
+      x: 80
+      y: 154
+      width: 14
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 154
+      width: 6
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chouqukapian_di_W_12_12_H_2_12
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 79
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 397
+      y: 81
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapai2_kuang1_W_20_22_H_20_22
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 185
+      width: 51
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 205
+      width: 9
+      height: 25
+    rotated: 0
+    paddingLeft: 0.019607844
+    paddingRight: 0
+    paddingTop: 0.014925373
+    paddingBottom: 0
+  - name: jinbidi_W_10_10_H_10_10
+    outer:
+      serializedVersion: 2
+      x: 158
+      y: 11
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 21
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon8
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 226
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 226
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon2
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 262
+      width: 15
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 262
+      width: 15
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.06666667
+    paddingTop: 0
+    paddingBottom: 0.037037037
+  - name: iconbaoxiang2
+    outer:
+      serializedVersion: 2
+      x: 332
+      y: 62
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 332
+      y: 62
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon1
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 289
+      width: 15
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 289
+      width: 15
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.06666667
+    paddingTop: 0
+    paddingBottom: 0.037037037
+  - name: kapai2_jiaobiao
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 189
+      width: 12
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 189
+      width: 12
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.05882353
+  - name: sekuai1_sixinhaoyou
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 222
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 222
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tankuang_xia_W_20_20_H_6_18
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 5
+      width: 50
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 11
+      width: 10
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: papai3_di_W_22_24_H_30_34
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 140
+      width: 80
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 22
+      y: 170
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: title_jb
+    outer:
+      serializedVersion: 2
+      x: 328
+      y: 17
+      width: 39
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 328
+      y: 17
+      width: 39
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.025641026
+    paddingTop: 0
+    paddingBottom: 0.024390243
+  - name: kapaixiao_guang_W_18_18
+    outer:
+      serializedVersion: 2
+      x: 62
+      y: 35
+      width: 40
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 80
+      y: 35
+      width: 4
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon5
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 11
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 11
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: top_di_W_8_8
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 2
+      width: 20
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 276
+      y: 2
+      width: 4
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.02
+  - name: add_small
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 14
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 14
+      width: 48
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: touiang_di1
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 268
+      width: 76
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 268
+      width: 76
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapaixiao_di_W_18_22_H_18_22
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 256
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 327
+      y: 274
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlankBlockCom
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 234
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 234
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tili
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 193
+      width: 30
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 193
+      width: 30
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapai1_guang_W_20_20_H_20_20
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 110
+      width: 49
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 130
+      width: 9
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.020408163
+    paddingTop: 0.020833334
+    paddingBottom: 0.020833334
+  - name: tubiao_duiwu
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 53
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 53
+      height: 38
+    rotated: 0
+    paddingLeft: 0.03773585
+    paddingRight: 0.018867925
+    paddingTop: 0.05263158
+    paddingBottom: 0
+  - name: kuang_zs_W_16_16_H_4_20
+    outer:
+      serializedVersion: 2
+      x: 347
+      y: 185
+      width: 36
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 189
+      width: 4
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sekuai_haoyoudi
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 163
+      width: 6
+      height: 6
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 163
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fengexian1
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 157
+      width: 10
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 157
+      width: 10
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: close
+    outer:
+      serializedVersion: 2
+      x: 304
+      y: 114
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 304
+      y: 114
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jingyantiao_W_2_2
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 179
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 96
+      y: 179
+      width: 6
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon7
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 161
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 161
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon9
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 3
+      width: 30
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 3
+      width: 30
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.09090909
+  - name: jinyanbg_W_2_2
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 169
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 96
+      y: 169
+      width: 6
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xiushikuang_W_18_18
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 58
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 306
+      y: 76
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon6
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 231
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 231
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.027027028
+    paddingTop: 0
+    paddingBottom: 0.027027028
+  - name: tankuang1_W_24_26_H_50_26
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 178
+      width: 64
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 132
+      y: 228
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniudi_shop
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 238
+      width: 108
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 238
+      width: 108
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon3
+    outer:
+      serializedVersion: 2
+      x: 62
+      y: 3
+      width: 29
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 62
+      y: 3
+      width: 29
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.03448276
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapai2_kuang2_W_20_20_H_40_22
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 182
+      width: 54
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 222
+      width: 14
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_icon4
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 146
+      width: 21
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 146
+      width: 21
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.04761905
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sekuai2_paisongdianquan
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 218
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 218
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FULL
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 328
+      width: 50
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 328
+      width: 50
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: free
+    outer:
+      serializedVersion: 2
+      x: 247
+      y: 254
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 247
+      y: 254
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: biaotidi01_W_12_12
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 12
+      width: 40
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 12
+      width: 16
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tankuang_di2_W_24_24_H_24_24
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 192
+      width: 58
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 216
+      width: 10
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniu02_W_14_21
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 102
+      width: 36
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 282
+      y: 102
+      width: 1
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 344
+      width: 1024
+      height: 680
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 344
+      width: 1024
+      height: 680
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jiangzang_xiao
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 51
+      width: 30
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 51
+      width: 30
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_wenhao
+    outer:
+      serializedVersion: 2
+      x: 80
+      y: 206
+      width: 24
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 80
+      y: 206
+      width: 24
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jinbi_xiao
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 268
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 268
+      width: 38
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exp_xiao
+    outer:
+      serializedVersion: 2
+      x: 295
+      y: 164
+      width: 61
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 295
+      y: 164
+      width: 61
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.016393442
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anniu_lvse
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 252
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 202
+      y: 252
+      width: 21
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.015873017
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_temp
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 99
+      width: 35
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 99
+      width: 35
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.028571429
+    paddingTop: 0.016949153
+    paddingBottom: 0
+  - name: back2
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 62
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 62
+      width: 48
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_jiangzhang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 44
+      width: 62
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 44
+      width: 62
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: guang_H_3_3_W_3_3
+    outer:
+      serializedVersion: 2
+      x: 80
+      y: 146
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 149
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ditu_xiao
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 158
+      width: 111
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 158
+      width: 111
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blueanniu_W_18_24
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 35
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 35
+      width: 22
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.015873017
+    paddingBottom: 0
+  - name: boss
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 306
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 306
+      width: 38
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: name_dilan
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 316
+      width: 201
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 316
+      width: 201
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: youxizhong_di_W_6_6
+    outer:
+      serializedVersion: 2
+      x: 91
+      y: 4
+      width: 17
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 5
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.032258064
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1239900051783022}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

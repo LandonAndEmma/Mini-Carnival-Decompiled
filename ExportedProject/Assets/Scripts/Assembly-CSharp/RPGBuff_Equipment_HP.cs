@@ -1,0 +1,13 @@
+public class RPGBuff_Equipment_HP : RPGTBuff
+{
+	protected new void Awake()
+	{
+		base.Awake();
+		base.ConfId = 105;
+	}
+
+	public override bool HandleMessage(TTelegram msg)
+	{
+		return true;
+	}
+}

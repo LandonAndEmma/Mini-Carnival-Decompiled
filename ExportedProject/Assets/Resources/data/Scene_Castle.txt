@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+
+<!--0 普通僵尸-->
+<!--1 快速僵尸-->
+<!--2 巨人僵尸-->
+<!--3 自爆僵尸-->
+<Scene_Castle>
+  
+  <Wave>
+    <u0 index="0" score="5" hp="50" hpMax="150" ap="20" apMax="25" speed="1.8" speedMax="3.5" view="12"/>
+    <u1 index="1" score="8" hp="40" hpMax="100" ap="20" apMax="30" speed="2.8" speedMax="4.5"  view="25"/>
+    <u2 index="2" score="20" hp="200" hpMax="500" ap="40" apMax="70" speed="1.5" speedMax="3.2"  view="15"/>
+    <u3 index="3" score="5" hp="1" hpMax="10" ap="50" apMax="90" speed="1.8" speedMax="3.8"  view="10"/>
+  </Wave>
+  
+  <!-- stronger:每波强化比率 -->
+  <!-- number:第一波敌人的数量 -->
+  <!-- more:每一波增加的怪物数量 -->
+  <Tough stronger="1.08" number="12" more="3"/>
+  
+</Scene_Castle>

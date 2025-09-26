@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1808562677177883
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4516672012462002}
+  - 114: {fileID: 114549224613089877}
+  m_Layer: 0
+  m_Name: NG2dot0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4516672012462002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808562677177883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114549224613089877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808562677177883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: afabd714aa304e64b96c9b5c09e119cc, type: 2}
+  sprites:
+  - name: jiantou_fangxiang
+    outer:
+      serializedVersion: 2
+      x: 96
+      y: 6
+      width: 56
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 96
+      y: 6
+      width: 56
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xinshoukuang_W_22_22_H_22_22
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 68
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 90
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: guang01_W_34_36_H_34_36
+    outer:
+      serializedVersion: 2
+      x: 96
+      y: 38
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 72
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlankBlockCom
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 20
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 20
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wenzi_di_W_14_14
+    outer:
+      serializedVersion: 2
+      x: 226
+      y: 17
+      width: 30
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 17
+      width: 2
+      height: 51
+    rotated: 0
+    paddingLeft: 0.06666667
+    paddingRight: 0.06666667
+    paddingTop: 0.039215688
+    paddingBottom: 0.019607844
+  - name: dianjiguang1_W_16_16_H_16_16
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 28
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 202
+      y: 44
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0.025
+    paddingRight: 0.025
+    paddingTop: 0.025
+    paddingBottom: 0.025
+  - name: xinshouguang2_W_40_40
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 96
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 40
+      y: 24
+      width: 16
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.020833334
+    paddingTop: 0
+    paddingBottom: 0.01923077
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1808562677177883}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

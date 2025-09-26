@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1183343267065315
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4973844175296474}
+  - 114: {fileID: 114439415514772638}
+  m_Layer: 0
+  m_Name: UIRPG_LevelUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4973844175296474
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1183343267065315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114439415514772638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1183343267065315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c938215fa35688747b426b8814f5239b, type: 2}
+  sprites:
+  - name: hecheng_guang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 156
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 156
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sidai_W_66_70
+    outer:
+      serializedVersion: 2
+      x: 100
+      y: 194
+      width: 144
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 194
+      width: 8
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tankuangdi_W_18_24_H_18_34
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 76
+      width: 54
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 18
+      y: 94
+      width: 12
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: di01_W_12_12_H_2_12
+    outer:
+      serializedVersion: 2
+      x: 100
+      y: 174
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlankBlockCom
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 252
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 252
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1183343267065315}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

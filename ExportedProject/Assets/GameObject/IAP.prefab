@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1831827545135050
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4921945819523194}
+  - 114: {fileID: 114599985105582259}
+  m_Layer: 0
+  m_Name: IAP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4921945819523194
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831827545135050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114599985105582259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831827545135050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 2d8f7246e3c09a64f9078895c33f1b61, type: 2}
+  sprites:
+  - name: IAPBtnBGCrystal
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 92
+      width: 56
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 290
+      y: 140
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGGold1
+    outer:
+      serializedVersion: 2
+      x: 356
+      y: 194
+      width: 76
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 356
+      y: 194
+      width: 76
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGCrystal2
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 178
+      width: 102
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 178
+      width: 102
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGCrystal5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 182
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 182
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGGold3
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 254
+      width: 126
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 254
+      width: 126
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGCrystal1
+    outer:
+      serializedVersion: 2
+      x: 380
+      y: 136
+      width: 72
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 380
+      y: 136
+      width: 72
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGCrystal4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 234
+      width: 166
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 234
+      width: 166
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGGold4
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 390
+      width: 140
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 362
+      y: 390
+      width: 140
+      height: 122
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGGold2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 122
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 122
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnTapjoy
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 268
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 268
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGGold5
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 370
+      width: 180
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 370
+      width: 180
+      height: 142
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnFGCrystal3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 108
+      width: 130
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 108
+      width: 130
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPBtnBGGold
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 92
+      width: 56
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 140
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconCaptionSell
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 190
+      width: 88
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 190
+      width: 20
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackpackIconItemState
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 22
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 22
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ComIcon_Crystal
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 192
+      width: 36
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 192
+      width: 36
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ComIcon_Gold
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 66
+      width: 40
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 66
+      width: 40
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommonMessageBoxBK03
+    outer:
+      serializedVersion: 2
+      x: 392
+      y: 274
+      width: 98
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 304
+      width: 24
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlankBlockCom
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 508
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 509
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IAPFrameBG
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 370
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 372
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: iapdi_W_10_10_H_10_10
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 168
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 140
+      y: 178
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: topjoy
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 102
+      width: 94
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 102
+      width: 94
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: title_back
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 190
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 190
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1831827545135050}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

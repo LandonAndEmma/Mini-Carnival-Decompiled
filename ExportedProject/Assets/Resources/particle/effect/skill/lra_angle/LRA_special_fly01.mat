@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LRA_special_fly01
+  m_Shader: {fileID: 4800000, guid: 26519b6d0e8e9224a813b7adac85d5ed, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 15e6786aff1fd0643bc7baf9f98d8b72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Outline
+      second: 0.1
+    - first:
+        name: _TH
+      second: 1
+    - first:
+        name: _ZP
+      second: 2
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.7352941, g: 0.69509894, b: 0.47037196, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.6, g: 0.14705884, b: 1, a: 0.4117647}
+    - first:
+        name: _AtmoColor
+      second: {r: 1, g: 0.8465518, b: 0.3455882, a: 1}

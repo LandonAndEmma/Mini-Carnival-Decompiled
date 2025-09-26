@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1872043457009122
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4672491262299056}
+  - 114: {fileID: 114123368805122171}
+  m_Layer: 0
+  m_Name: Default Gesture Prefabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4672491262299056
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872043457009122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 141.00745, y: -213.04199, z: -34.64258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114123368805122171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872043457009122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c3a53d848e13475a919dca8e233cae, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fingerMotion: {fileID: 114923721850670544, guid: 0c26990006d748e4fab8a8f6bbe5ec3d, type: 2}
+  fingerDrag: {fileID: 114358365279409068, guid: 849d20fba33938b4f9f0d794d6fc6a49, type: 2}
+  fingerTap: {fileID: 114535647725244569, guid: d11dfef2168f8bb498dd28a71aef5d13, type: 2}
+  fingerSwipe: {fileID: 114007225853312164, guid: d3b707f42af0c7d4eac8d26685d94c30, type: 2}
+  fingerLongPress: {fileID: 114943389728063995, guid: d43d50560c8ac56418b616666840a4a8, type: 2}
+  drag: {fileID: 114358365279409068, guid: 849d20fba33938b4f9f0d794d6fc6a49, type: 2}
+  tap: {fileID: 114535647725244569, guid: d11dfef2168f8bb498dd28a71aef5d13, type: 2}
+  swipe: {fileID: 114007225853312164, guid: d3b707f42af0c7d4eac8d26685d94c30, type: 2}
+  longPress: {fileID: 114943389728063995, guid: d43d50560c8ac56418b616666840a4a8, type: 2}
+  pinch: {fileID: 114518645577949621, guid: bed8820c64b9bec428daa05a36dc0593, type: 2}
+  rotation: {fileID: 114383508105892460, guid: b8ca1fd0ecaf9c34ba3b02ec4c5ec1c3, type: 2}
+  twoFingerDrag: {fileID: 114808956710107353, guid: 444fcbe6ba16e88489c1fbf713b23be7, type: 2}
+  twoFingerTap: {fileID: 114442515146912134, guid: a7294f4a4aaf47243b7a2ba8840b67b8, type: 2}
+  twoFingerSwipe: {fileID: 114336845048999460, guid: d0165c0d3408d7446a24b675a07c8c00, type: 2}
+  twoFingerLongPress: {fileID: 114939909202173669, guid: d0da356d4cab6664ba4cd2b29d608dc2, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1872043457009122}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
