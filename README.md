@@ -9,7 +9,7 @@ Decompiled source code for the **Android version** of *Mini Carnival*.
 To work with this project, you will need:
 
 - **Unity 3D 4.5.4f1**  
-  [Download via magnet link](magnet:?xt=urn:btih:1A4377BCA45C5713C92F1C5B09A68A5740C4BCEA&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=Unity%203D%20Pro%204.5.4%20f1%20x86%20%5B2014%2C%20ENG%5D)
+  [Download via magnet link](https://tinyurl.com/4dv7msnv)
 
 - **Android SDK from mid-2014**  
   Currently stuck on setting this up. Contributions or guidance on configuring the correct SDK are welcome.
